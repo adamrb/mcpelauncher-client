@@ -125,12 +125,14 @@ FakeJni::JLong MainActivity::initializeXboxLive2(FakeJni::JLong xalinit, FakeJni
     return ret.j;
 }
 
+/*
 FakeJni::JLong MainActivity::initializeLibHttpClient(FakeJni::JLong init) {
     auto method = getClass().getMethod("(J)J", "nativeinitializeLibHttpClient");
     FakeJni::LocalFrame frame;
     auto ret = method->invoke(frame.getJniEnv(), this, init);
     return ret.j;
 }
+*/
 
 std::shared_ptr<FakeJni::JIntArray> MainActivity::getImageData(std::shared_ptr<FakeJni::JString> filename) {
     if(!stbi_load_from_memory || !stbi_image_free) return 0;

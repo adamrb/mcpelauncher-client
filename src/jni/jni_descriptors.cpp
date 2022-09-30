@@ -111,7 +111,7 @@ BEGIN_NATIVE_DESCRIPTOR(MainActivity)
 {Function<&MainActivity::pickImage> {}, "pickImage"},
 {Function<&MainActivity::initializeXboxLive> {}, "initializeXboxLive"},
 {Function<&MainActivity::initializeXboxLive2> {}, "initializeXboxLive"},
-{Function<&MainActivity::initializeLibHttpClient> {}, "initializeLibHttpClient"},
+// {Function<&MainActivity::initializeLibHttpClient> {}, "initializeLibHttpClient"},
 // {Function<&MainActivity::getSecureStorageKey> {}, "getSecureStorageKey"},
 {Function<&MainActivity::lockCursor> {}, "lockCursor"},
 {Function<&MainActivity::unlockCursor> {}, "unlockCursor"},
